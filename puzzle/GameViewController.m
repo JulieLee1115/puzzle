@@ -49,10 +49,24 @@
     }
 
 }
+- (void)loadAdMobIntersBanner
+{
+    interstitial_ = [[GADInterstitial alloc] init];
+    interstitial_.adUnitID = @"ca-app-pub-9192583427139366/7537537932";
+    interstitial_.delegate = self;
+    GADRequest *request = [GADRequest request];
+    [interstitial_ loadRequest:request];
+}
 
+// AdMobのインタースティシャル広告表示
+- (void)interstitialDidReceiveAd:(GADInterstitial *)ad
+{
+    [interstitial_ presentFromRootViewController:self];
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self loadAdMobIntersBanner];
     //    views = [[NSMutableArray alloc] init];
     
     //音楽を再生する
@@ -153,10 +167,10 @@
         }
        
       /* 画像の順番をランダムにするための数字の配列 */
- //      for (int i = 14; i > 8; i--) {
-   //      int randomNum = arc4random() % i;
-       //    [imgNumAry exchangeObjectAtIndex:i withObjectAtIndex:randomNum];
-     // }
+      for (int i = 14; i > 8; i--) {
+         int randomNum = arc4random() % i;
+          [imgNumAry exchangeObjectAtIndex:i withObjectAtIndex:randomNum];
+     }
 
 
     }

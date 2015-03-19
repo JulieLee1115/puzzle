@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9DB48147239DE5D4345F1F0C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 251671FF02CAF43658B4D6D7 /* libPods.a */; };
 		D42A9AAB1A9F2F6400A7F48D /* 18271_PHOTO.png in Resources */ = {isa = PBXBuildFile; fileRef = D42A9AAA1A9F2F6400A7F48D /* 18271_PHOTO.png */; };
 		D42A9AAD1A9F30BA00A7F48D /* yjimage.png in Resources */ = {isa = PBXBuildFile; fileRef = D42A9AAC1A9F30BA00A7F48D /* yjimage.png */; };
 		D432A9D31A77C11800EB5FD4 /* flower-back1086.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D432A9D21A77C11800EB5FD4 /* flower-back1086.jpg */; };
@@ -14,8 +15,6 @@
 		D432A9DD1A7A4D0300EB5FD4 /* eac94babbc2f6c7_320x480.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D432A9DC1A7A4D0300EB5FD4 /* eac94babbc2f6c7_320x480.jpg */; };
 		D432A9DF1A7A4D0500EB5FD4 /* 0012_1136_640-348x618.png in Resources */ = {isa = PBXBuildFile; fileRef = D432A9DE1A7A4D0500EB5FD4 /* 0012_1136_640-348x618.png */; };
 		D432A9E11A7F5DE600EB5FD4 /* pazuru.png in Resources */ = {isa = PBXBuildFile; fileRef = D432A9E01A7F5DE600EB5FD4 /* pazuru.png */; };
-		D432A9E31A83763300EB5FD4 /* 名称未設定-1.png in Resources */ = {isa = PBXBuildFile; fileRef = D432A9E21A83763300EB5FD4 /* 名称未設定-1.png */; };
-		D432A9ED1A8CC3C400EB5FD4 /* 花.png in Resources */ = {isa = PBXBuildFile; fileRef = D432A9EC1A8CC3C400EB5FD4 /* 花.png */; };
 		D432A9F31A8CC7B100EB5FD4 /* Abstract Floral Vector Illustration Artwork.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D432A9F21A8CC7B100EB5FD4 /* Abstract Floral Vector Illustration Artwork.jpg */; };
 		D49632E81AB19836001B9F34 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D49632E71AB19836001B9F34 /* AudioToolbox.framework */; };
 		D49632EC1AB19F50001B9F34 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D49632EB1AB19F50001B9F34 /* AVFoundation.framework */; };
@@ -24,6 +23,7 @@
 		D4D082571A90B99A003C61B7 /* 15.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D082561A90B99A003C61B7 /* 15.png */; };
 		D4D082591A95F625003C61B7 /* free_button_psd_2.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D082581A95F624003C61B7 /* free_button_psd_2.png */; };
 		D4DC62711AB5613700187471 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4DC62701AB5613700187471 /* iAd.framework */; };
+		D4DC62751ABAD48900187471 /* 花.png in Resources */ = {isa = PBXBuildFile; fileRef = D4DC62741ABAD48900187471 /* 花.png */; };
 		D4EA65B81A1E07C2002F3DAF /* GameOverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EA65B71A1E07C2002F3DAF /* GameOverViewController.m */; };
 		D4EA65BB1A1E0818002F3DAF /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EA65BA1A1E0818002F3DAF /* GameViewController.m */; };
 		D4EA65BE1A1E0904002F3DAF /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EA65BD1A1E0904002F3DAF /* SettingViewController.m */; };
@@ -55,6 +55,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		251671FF02CAF43658B4D6D7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		29C0F5C5A387EAE0602137B4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		6D441C4B5236D91B1A3C68CB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		D42A9AAA1A9F2F6400A7F48D /* 18271_PHOTO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 18271_PHOTO.png; sourceTree = "<group>"; };
 		D42A9AAC1A9F30BA00A7F48D /* yjimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yjimage.png; sourceTree = "<group>"; };
 		D432A9D21A77C11800EB5FD4 /* flower-back1086.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "flower-back1086.jpg"; sourceTree = "<group>"; };
@@ -62,8 +65,6 @@
 		D432A9DC1A7A4D0300EB5FD4 /* eac94babbc2f6c7_320x480.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eac94babbc2f6c7_320x480.jpg; sourceTree = "<group>"; };
 		D432A9DE1A7A4D0500EB5FD4 /* 0012_1136_640-348x618.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "0012_1136_640-348x618.png"; sourceTree = "<group>"; };
 		D432A9E01A7F5DE600EB5FD4 /* pazuru.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pazuru.png; sourceTree = "<group>"; };
-		D432A9E21A83763300EB5FD4 /* 名称未設定-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "名称未設定-1.png"; sourceTree = "<group>"; };
-		D432A9EC1A8CC3C400EB5FD4 /* 花.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "花.png"; sourceTree = "<group>"; };
 		D432A9F21A8CC7B100EB5FD4 /* Abstract Floral Vector Illustration Artwork.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Abstract Floral Vector Illustration Artwork.jpg"; sourceTree = "<group>"; };
 		D49632E71AB19836001B9F34 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		D49632EB1AB19F50001B9F34 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -72,6 +73,7 @@
 		D4D082561A90B99A003C61B7 /* 15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 15.png; sourceTree = "<group>"; };
 		D4D082581A95F624003C61B7 /* free_button_psd_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = free_button_psd_2.png; sourceTree = "<group>"; };
 		D4DC62701AB5613700187471 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		D4DC62741ABAD48900187471 /* 花.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "花.png"; sourceTree = "<group>"; };
 		D4EA65B61A1E07C2002F3DAF /* GameOverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverViewController.h; sourceTree = "<group>"; };
 		D4EA65B71A1E07C2002F3DAF /* GameOverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOverViewController.m; sourceTree = "<group>"; };
 		D4EA65B91A1E0818002F3DAF /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				D4FD46491A14C3AD00EC596E /* CoreGraphics.framework in Frameworks */,
 				D4FD464B1A14C3AD00EC596E /* UIKit.framework in Frameworks */,
 				D4FD46471A14C3AC00EC596E /* Foundation.framework in Frameworks */,
+				9DB48147239DE5D4345F1F0C /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,6 +130,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C89C61D481114B26F0E3B2C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				29C0F5C5A387EAE0602137B4 /* Pods.debug.xcconfig */,
+				6D441C4B5236D91B1A3C68CB /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D4FD463A1A14C3AC00EC596E = {
 			isa = PBXGroup;
 			children = (
@@ -134,6 +146,7 @@
 				D4FD466B1A14C3AD00EC596E /* puzzleTests */,
 				D4FD46451A14C3AC00EC596E /* Frameworks */,
 				D4FD46441A14C3AC00EC596E /* Products */,
+				C89C61D481114B26F0E3B2C7 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -155,6 +168,7 @@
 				D4FD46461A14C3AC00EC596E /* Foundation.framework */,
 				D4FD46481A14C3AD00EC596E /* CoreGraphics.framework */,
 				D4FD46651A14C3AD00EC596E /* XCTest.framework */,
+				251671FF02CAF43658B4D6D7 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -173,17 +187,16 @@
 				D4EA65BA1A1E0818002F3DAF /* GameViewController.m */,
 				D4EA65B61A1E07C2002F3DAF /* GameOverViewController.h */,
 				D4EA65B71A1E07C2002F3DAF /* GameOverViewController.m */,
+				D4DC62741ABAD48900187471 /* 花.png */,
 				D432A9F21A8CC7B100EB5FD4 /* Abstract Floral Vector Illustration Artwork.jpg */,
 				D42A9AAA1A9F2F6400A7F48D /* 18271_PHOTO.png */,
 				D4D082581A95F624003C61B7 /* free_button_psd_2.png */,
 				D4D082561A90B99A003C61B7 /* 15.png */,
-				D432A9EC1A8CC3C400EB5FD4 /* 花.png */,
 				D42A9AAC1A9F30BA00A7F48D /* yjimage.png */,
 				D49632EF1AB1A3F5001B9F34 /* 182.mp3 */,
 				D49632ED1AB1A1E7001B9F34 /* 2877.mp3 */,
 				D432A9E01A7F5DE600EB5FD4 /* pazuru.png */,
 				D432A9DA1A7A4D0000EB5FD4 /* Flowers-Field-Nature-Sunny-iphone-5-wallpaper-ilikewallpaper_com.jpg */,
-				D432A9E21A83763300EB5FD4 /* 名称未設定-1.png */,
 				D432A9D21A77C11800EB5FD4 /* flower-back1086.jpg */,
 				D4EA65C71A39B657002F3DAF /* cat.png */,
 				D432A9DE1A7A4D0500EB5FD4 /* 0012_1136_640-348x618.png */,
@@ -231,9 +244,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D4FD46751A14C3AD00EC596E /* Build configuration list for PBXNativeTarget "puzzle" */;
 			buildPhases = (
+				F59F1BDCBC74112CB379BEA7 /* Check Pods Manifest.lock */,
 				D4FD463F1A14C3AC00EC596E /* Sources */,
 				D4FD46401A14C3AC00EC596E /* Frameworks */,
 				D4FD46411A14C3AC00EC596E /* Resources */,
+				079C68748BE97B9921D43163 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -306,7 +321,6 @@
 				D49632F01AB1A3F5001B9F34 /* 182.mp3 in Resources */,
 				D49632EE1AB1A1E7001B9F34 /* 2877.mp3 in Resources */,
 				D432A9F31A8CC7B100EB5FD4 /* Abstract Floral Vector Illustration Artwork.jpg in Resources */,
-				D432A9ED1A8CC3C400EB5FD4 /* 花.png in Resources */,
 				D4D082591A95F625003C61B7 /* free_button_psd_2.png in Resources */,
 				D42A9AAB1A9F2F6400A7F48D /* 18271_PHOTO.png in Resources */,
 				D42A9AAD1A9F30BA00A7F48D /* yjimage.png in Resources */,
@@ -317,7 +331,7 @@
 				D432A9DB1A7A4D0000EB5FD4 /* Flowers-Field-Nature-Sunny-iphone-5-wallpaper-ilikewallpaper_com.jpg in Resources */,
 				D4D082571A90B99A003C61B7 /* 15.png in Resources */,
 				D4EA65C81A39B657002F3DAF /* cat.png in Resources */,
-				D432A9E31A83763300EB5FD4 /* 名称未設定-1.png in Resources */,
+				D4DC62751ABAD48900187471 /* 花.png in Resources */,
 				D432A9D31A77C11800EB5FD4 /* flower-back1086.jpg in Resources */,
 				D4FD465A1A14C3AD00EC596E /* Main.storyboard in Resources */,
 				D432A9DF1A7A4D0500EB5FD4 /* 0012_1136_640-348x618.png in Resources */,
@@ -333,6 +347,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		079C68748BE97B9921D43163 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F59F1BDCBC74112CB379BEA7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D4FD463F1A14C3AC00EC596E /* Sources */ = {
@@ -468,6 +515,7 @@
 		};
 		D4FD46761A14C3AD00EC596E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29C0F5C5A387EAE0602137B4 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -483,6 +531,7 @@
 		};
 		D4FD46771A14C3AD00EC596E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D441C4B5236D91B1A3C68CB /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;

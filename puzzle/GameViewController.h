@@ -8,10 +8,11 @@
 
 #import <UIKit/UIKit.h>
 #import <AVFoundation/AVFoundation.h>
-
-@interface GameViewController : UIViewController
+@import GoogleMobileAds;
+@interface GameViewController : UIViewController<GADInterstitialDelegate>
 {
     IBOutlet UILabel *timeLabel;
+    GADInterstitial *interstitial_;
     
          AVAudioPlayer *audio ;
     
