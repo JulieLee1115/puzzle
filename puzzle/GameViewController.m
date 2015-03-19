@@ -160,8 +160,6 @@
 
 
     }
-
-
 //bt0が押された時
 -(IBAction)bt0Pushed{
     if(bt1.hidden == YES){
