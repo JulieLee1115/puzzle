@@ -7,6 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D42A9AAB1A9F2F6400A7F48D /* 18271_PHOTO.png in Resources */ = {isa = PBXBuildFile; fileRef = D42A9AAA1A9F2F6400A7F48D /* 18271_PHOTO.png */; };
+		D42A9AAD1A9F30BA00A7F48D /* yjimage.png in Resources */ = {isa = PBXBuildFile; fileRef = D42A9AAC1A9F30BA00A7F48D /* yjimage.png */; };
+		D432A9D31A77C11800EB5FD4 /* flower-back1086.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D432A9D21A77C11800EB5FD4 /* flower-back1086.jpg */; };
+		D432A9DB1A7A4D0000EB5FD4 /* Flowers-Field-Nature-Sunny-iphone-5-wallpaper-ilikewallpaper_com.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D432A9DA1A7A4D0000EB5FD4 /* Flowers-Field-Nature-Sunny-iphone-5-wallpaper-ilikewallpaper_com.jpg */; };
+		D432A9DD1A7A4D0300EB5FD4 /* eac94babbc2f6c7_320x480.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D432A9DC1A7A4D0300EB5FD4 /* eac94babbc2f6c7_320x480.jpg */; };
+		D432A9DF1A7A4D0500EB5FD4 /* 0012_1136_640-348x618.png in Resources */ = {isa = PBXBuildFile; fileRef = D432A9DE1A7A4D0500EB5FD4 /* 0012_1136_640-348x618.png */; };
+		D432A9E11A7F5DE600EB5FD4 /* pazuru.png in Resources */ = {isa = PBXBuildFile; fileRef = D432A9E01A7F5DE600EB5FD4 /* pazuru.png */; };
+		D432A9E31A83763300EB5FD4 /* 名称未設定-1.png in Resources */ = {isa = PBXBuildFile; fileRef = D432A9E21A83763300EB5FD4 /* 名称未設定-1.png */; };
+		D432A9ED1A8CC3C400EB5FD4 /* 花.png in Resources */ = {isa = PBXBuildFile; fileRef = D432A9EC1A8CC3C400EB5FD4 /* 花.png */; };
+		D432A9F31A8CC7B100EB5FD4 /* Abstract Floral Vector Illustration Artwork.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D432A9F21A8CC7B100EB5FD4 /* Abstract Floral Vector Illustration Artwork.jpg */; };
+		D49632E81AB19836001B9F34 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D49632E71AB19836001B9F34 /* AudioToolbox.framework */; };
+		D49632EC1AB19F50001B9F34 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D49632EB1AB19F50001B9F34 /* AVFoundation.framework */; };
+		D49632EE1AB1A1E7001B9F34 /* 2877.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D49632ED1AB1A1E7001B9F34 /* 2877.mp3 */; };
+		D49632F01AB1A3F5001B9F34 /* 182.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D49632EF1AB1A3F5001B9F34 /* 182.mp3 */; };
+		D4D082571A90B99A003C61B7 /* 15.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D082561A90B99A003C61B7 /* 15.png */; };
+		D4D082591A95F625003C61B7 /* free_button_psd_2.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D082581A95F624003C61B7 /* free_button_psd_2.png */; };
+		D4DC62711AB5613700187471 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4DC62701AB5613700187471 /* iAd.framework */; };
+		D4EA65B81A1E07C2002F3DAF /* GameOverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EA65B71A1E07C2002F3DAF /* GameOverViewController.m */; };
+		D4EA65BB1A1E0818002F3DAF /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EA65BA1A1E0818002F3DAF /* GameViewController.m */; };
+		D4EA65BE1A1E0904002F3DAF /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EA65BD1A1E0904002F3DAF /* SettingViewController.m */; };
+		D4EA65C81A39B657002F3DAF /* cat.png in Resources */ = {isa = PBXBuildFile; fileRef = D4EA65C71A39B657002F3DAF /* cat.png */; };
 		D4FD46471A14C3AC00EC596E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4FD46461A14C3AC00EC596E /* Foundation.framework */; };
 		D4FD46491A14C3AD00EC596E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4FD46481A14C3AD00EC596E /* CoreGraphics.framework */; };
 		D4FD464B1A14C3AD00EC596E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4FD464A1A14C3AD00EC596E /* UIKit.framework */; };
@@ -34,6 +55,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D42A9AAA1A9F2F6400A7F48D /* 18271_PHOTO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 18271_PHOTO.png; sourceTree = "<group>"; };
+		D42A9AAC1A9F30BA00A7F48D /* yjimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yjimage.png; sourceTree = "<group>"; };
+		D432A9D21A77C11800EB5FD4 /* flower-back1086.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "flower-back1086.jpg"; sourceTree = "<group>"; };
+		D432A9DA1A7A4D0000EB5FD4 /* Flowers-Field-Nature-Sunny-iphone-5-wallpaper-ilikewallpaper_com.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Flowers-Field-Nature-Sunny-iphone-5-wallpaper-ilikewallpaper_com.jpg"; sourceTree = "<group>"; };
+		D432A9DC1A7A4D0300EB5FD4 /* eac94babbc2f6c7_320x480.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eac94babbc2f6c7_320x480.jpg; sourceTree = "<group>"; };
+		D432A9DE1A7A4D0500EB5FD4 /* 0012_1136_640-348x618.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "0012_1136_640-348x618.png"; sourceTree = "<group>"; };
+		D432A9E01A7F5DE600EB5FD4 /* pazuru.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pazuru.png; sourceTree = "<group>"; };
+		D432A9E21A83763300EB5FD4 /* 名称未設定-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "名称未設定-1.png"; sourceTree = "<group>"; };
+		D432A9EC1A8CC3C400EB5FD4 /* 花.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "花.png"; sourceTree = "<group>"; };
+		D432A9F21A8CC7B100EB5FD4 /* Abstract Floral Vector Illustration Artwork.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Abstract Floral Vector Illustration Artwork.jpg"; sourceTree = "<group>"; };
+		D49632E71AB19836001B9F34 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		D49632EB1AB19F50001B9F34 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D49632ED1AB1A1E7001B9F34 /* 2877.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 2877.mp3; sourceTree = "<group>"; };
+		D49632EF1AB1A3F5001B9F34 /* 182.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 182.mp3; sourceTree = "<group>"; };
+		D4D082561A90B99A003C61B7 /* 15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 15.png; sourceTree = "<group>"; };
+		D4D082581A95F624003C61B7 /* free_button_psd_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = free_button_psd_2.png; sourceTree = "<group>"; };
+		D4DC62701AB5613700187471 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		D4EA65B61A1E07C2002F3DAF /* GameOverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverViewController.h; sourceTree = "<group>"; };
+		D4EA65B71A1E07C2002F3DAF /* GameOverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOverViewController.m; sourceTree = "<group>"; };
+		D4EA65B91A1E0818002F3DAF /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		D4EA65BA1A1E0818002F3DAF /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		D4EA65BC1A1E0904002F3DAF /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		D4EA65BD1A1E0904002F3DAF /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		D4EA65C71A39B657002F3DAF /* cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat.png; sourceTree = "<group>"; };
 		D4FD46431A14C3AC00EC596E /* puzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = puzzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4FD46461A14C3AC00EC596E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D4FD46481A14C3AD00EC596E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,6 +105,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4DC62711AB5613700187471 /* iAd.framework in Frameworks */,
+				D49632EC1AB19F50001B9F34 /* AVFoundation.framework in Frameworks */,
+				D49632E81AB19836001B9F34 /* AudioToolbox.framework in Frameworks */,
 				D4FD46491A14C3AD00EC596E /* CoreGraphics.framework in Frameworks */,
 				D4FD464B1A14C3AD00EC596E /* UIKit.framework in Frameworks */,
 				D4FD46471A14C3AC00EC596E /* Foundation.framework in Frameworks */,
@@ -101,9 +149,11 @@
 		D4FD46451A14C3AC00EC596E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D4DC62701AB5613700187471 /* iAd.framework */,
+				D49632EB1AB19F50001B9F34 /* AVFoundation.framework */,
+				D49632E71AB19836001B9F34 /* AudioToolbox.framework */,
 				D4FD46461A14C3AC00EC596E /* Foundation.framework */,
 				D4FD46481A14C3AD00EC596E /* CoreGraphics.framework */,
-				D4FD464A1A14C3AD00EC596E /* UIKit.framework */,
 				D4FD46651A14C3AD00EC596E /* XCTest.framework */,
 			);
 			name = Frameworks;
@@ -117,6 +167,27 @@
 				D4FD46581A14C3AD00EC596E /* Main.storyboard */,
 				D4FD465B1A14C3AD00EC596E /* ViewController.h */,
 				D4FD465C1A14C3AD00EC596E /* ViewController.m */,
+				D4EA65BC1A1E0904002F3DAF /* SettingViewController.h */,
+				D4EA65BD1A1E0904002F3DAF /* SettingViewController.m */,
+				D4EA65B91A1E0818002F3DAF /* GameViewController.h */,
+				D4EA65BA1A1E0818002F3DAF /* GameViewController.m */,
+				D4EA65B61A1E07C2002F3DAF /* GameOverViewController.h */,
+				D4EA65B71A1E07C2002F3DAF /* GameOverViewController.m */,
+				D432A9F21A8CC7B100EB5FD4 /* Abstract Floral Vector Illustration Artwork.jpg */,
+				D42A9AAA1A9F2F6400A7F48D /* 18271_PHOTO.png */,
+				D4D082581A95F624003C61B7 /* free_button_psd_2.png */,
+				D4D082561A90B99A003C61B7 /* 15.png */,
+				D432A9EC1A8CC3C400EB5FD4 /* 花.png */,
+				D42A9AAC1A9F30BA00A7F48D /* yjimage.png */,
+				D49632EF1AB1A3F5001B9F34 /* 182.mp3 */,
+				D49632ED1AB1A1E7001B9F34 /* 2877.mp3 */,
+				D432A9E01A7F5DE600EB5FD4 /* pazuru.png */,
+				D432A9DA1A7A4D0000EB5FD4 /* Flowers-Field-Nature-Sunny-iphone-5-wallpaper-ilikewallpaper_com.jpg */,
+				D432A9E21A83763300EB5FD4 /* 名称未設定-1.png */,
+				D432A9D21A77C11800EB5FD4 /* flower-back1086.jpg */,
+				D4EA65C71A39B657002F3DAF /* cat.png */,
+				D432A9DE1A7A4D0500EB5FD4 /* 0012_1136_640-348x618.png */,
+				D432A9DC1A7A4D0300EB5FD4 /* eac94babbc2f6c7_320x480.jpg */,
 				D4FD465E1A14C3AD00EC596E /* Images.xcassets */,
 				D4FD464D1A14C3AD00EC596E /* Supporting Files */,
 			);
@@ -138,6 +209,7 @@
 			isa = PBXGroup;
 			children = (
 				D4FD46711A14C3AD00EC596E /* puzzleTests.m */,
+				D4FD464A1A14C3AD00EC596E /* UIKit.framework */,
 				D4FD466C1A14C3AD00EC596E /* Supporting Files */,
 			);
 			path = puzzleTests;
@@ -199,6 +271,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = JulieLee;
 				TargetAttributes = {
+					D4FD46421A14C3AC00EC596E = {
+						DevelopmentTeam = CPAPXRNX7T;
+					};
 					D4FD46631A14C3AD00EC596E = {
 						TestTargetID = D4FD46421A14C3AC00EC596E;
 					};
@@ -228,9 +303,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D49632F01AB1A3F5001B9F34 /* 182.mp3 in Resources */,
+				D49632EE1AB1A1E7001B9F34 /* 2877.mp3 in Resources */,
+				D432A9F31A8CC7B100EB5FD4 /* Abstract Floral Vector Illustration Artwork.jpg in Resources */,
+				D432A9ED1A8CC3C400EB5FD4 /* 花.png in Resources */,
+				D4D082591A95F625003C61B7 /* free_button_psd_2.png in Resources */,
+				D42A9AAB1A9F2F6400A7F48D /* 18271_PHOTO.png in Resources */,
+				D42A9AAD1A9F30BA00A7F48D /* yjimage.png in Resources */,
+				D432A9DD1A7A4D0300EB5FD4 /* eac94babbc2f6c7_320x480.jpg in Resources */,
 				D4FD465F1A14C3AD00EC596E /* Images.xcassets in Resources */,
+				D432A9E11A7F5DE600EB5FD4 /* pazuru.png in Resources */,
 				D4FD46511A14C3AD00EC596E /* InfoPlist.strings in Resources */,
+				D432A9DB1A7A4D0000EB5FD4 /* Flowers-Field-Nature-Sunny-iphone-5-wallpaper-ilikewallpaper_com.jpg in Resources */,
+				D4D082571A90B99A003C61B7 /* 15.png in Resources */,
+				D4EA65C81A39B657002F3DAF /* cat.png in Resources */,
+				D432A9E31A83763300EB5FD4 /* 名称未設定-1.png in Resources */,
+				D432A9D31A77C11800EB5FD4 /* flower-back1086.jpg in Resources */,
 				D4FD465A1A14C3AD00EC596E /* Main.storyboard in Resources */,
+				D432A9DF1A7A4D0500EB5FD4 /* 0012_1136_640-348x618.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +339,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4EA65BB1A1E0818002F3DAF /* GameViewController.m in Sources */,
+				D4EA65B81A1E07C2002F3DAF /* GameOverViewController.m in Sources */,
 				D4FD465D1A14C3AD00EC596E /* ViewController.m in Sources */,
 				D4FD46571A14C3AD00EC596E /* AppDelegate.m in Sources */,
 				D4FD46531A14C3AD00EC596E /* main.m in Sources */,
+				D4EA65BE1A1E0904002F3DAF /* SettingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +429,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Debug;
 		};
@@ -366,6 +460,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -376,9 +471,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "puzzle/puzzle-Prefix.pch";
 				INFOPLIST_FILE = "puzzle/puzzle-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -389,9 +486,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Julie Lee (CPAPXRNX7T)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "puzzle/puzzle-Prefix.pch";
 				INFOPLIST_FILE = "puzzle/puzzle-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -456,6 +555,7 @@
 				D4FD46771A14C3AD00EC596E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D4FD46781A14C3AD00EC596E /* Build configuration list for PBXNativeTarget "puzzleTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +564,7 @@
 				D4FD467A1A14C3AD00EC596E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

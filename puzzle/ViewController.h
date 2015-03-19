@@ -7,7 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
+#import <iAd/iAd.h>
 
-@interface ViewController : UIViewController
+
+@interface ViewController :UIViewController 
+{
+    AVAudioPlayer *audio ;
+}
+
+
+
+
 
 @end

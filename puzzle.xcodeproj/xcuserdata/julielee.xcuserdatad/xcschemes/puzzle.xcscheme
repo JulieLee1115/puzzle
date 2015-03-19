@@ -91,6 +91,7 @@
    </AnalyzeAction>
    <ArchiveAction
       buildConfiguration = "Release"
+      customArchiveName = "15puzzles"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>
