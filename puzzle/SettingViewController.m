@@ -30,14 +30,14 @@
 {
     [super viewDidLoad];
     
-    //音楽を再生する
-    NSString *path =[[NSBundle mainBundle] pathForResource:@"2877" ofType:@"mp3"];
-    NSURL *url =[NSURL fileURLWithPath:path];
-    audio=[[AVAudioPlayer alloc]initWithContentsOfURL:url error:nil];
-    [audio play]; //再生メゾットを呼び出す
+//    //音楽を再生する
+//    NSString *path =[[NSBundle mainBundle] pathForResource:@"2877" ofType:@"mp3"];
+//    NSURL *url =[NSURL fileURLWithPath:path];
+//    audio=[[AVAudioPlayer alloc]initWithContentsOfURL:url error:nil];
+//    [audio play]; //再生メゾットを呼び出す
     
     
-    UIImage *image = [UIImage imageNamed:@"Abstract Floral Vector Illustration Artwork.jpg"];
+    UIImage *image = [UIImage imageNamed:@"4745.jpg"];
     
     NSUserDefaults *ud = [NSUserDefaults standardUserDefaults];
     // NSMutableDictionary *defaults = [NSMutableDictionary dictionary];

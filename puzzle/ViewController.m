@@ -20,11 +20,11 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    //音楽を再生する
-    NSString *path =[[NSBundle mainBundle] pathForResource:@"2877" ofType:@"mp3"];
-    NSURL *url =[NSURL fileURLWithPath:path];
-    audio=[[AVAudioPlayer alloc]initWithContentsOfURL:url error:nil];
-    [audio play]; //再生メゾットを呼び出す
+//    //音楽を再生する
+//    NSString *path =[[NSBundle mainBundle] pathForResource:@"2877" ofType:@"mp3"];
+//    NSURL *url =[NSURL fileURLWithPath:path];
+//    audio=[[AVAudioPlayer alloc]initWithContentsOfURL:url error:nil];
+//    [audio play]; //再生メゾットを呼び出す
     
 }
 - (void)bannerView:(ADBannerView *)banner didFailToReceiveAdWithError:(NSError * )error{

@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 #import <AVFoundation/AVFoundation.h>
+#import <AudioToolbox/AudioToolbox.h>
 @import GoogleMobileAds;
 @interface GameViewController : UIViewController<GADInterstitialDelegate>
+
 {
     IBOutlet UILabel *timeLabel;
     GADInterstitial *interstitial_;
@@ -40,6 +42,8 @@
     IBOutlet UILabel *clearLabel;
     IBOutlet UIImageView *keyImgView;
     IBOutlet UIImageView  *imgView;
+    //効果音
+    SystemSoundID sound_1;
 
 
     

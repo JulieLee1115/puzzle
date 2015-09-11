@@ -70,10 +70,10 @@
     //    views = [[NSMutableArray alloc] init];
     
     //音楽を再生する
-    NSString *path =[[NSBundle mainBundle] pathForResource:@"2877" ofType:@"mp3"];
-    NSURL *url =[NSURL fileURLWithPath:path];
-    audio=[[AVAudioPlayer alloc]initWithContentsOfURL:url error:nil];
-    [audio play]; //再生メゾットを呼び出す
+   // NSString *path = [[NSBundle mainBundle] pathForResource:@"automatic_pencil1" ofType:@"mp3"];
+   // NSURL *url = [NSURL fileURLWithPath:path];
+   // AudioServicesCreateSystemSoundID((CFURLRef)CFBridgingRetain(url), &sound_1);
+
     
     
     clearLabel.hidden = YES;
@@ -130,7 +130,7 @@
     
     min=7;
     sec =00;
-    timeLabel.text =[NSString stringWithFormat:@"%d:%d",min,sec];
+    timeLabel.text =[NSString stringWithFormat:@"%d:%02d",min,sec];
     
     timer = [NSTimer scheduledTimerWithTimeInterval:1.0
                                              target:self
@@ -140,7 +140,9 @@
              ];
     
 }
- 
+
+
+
 
     /* 画像を分割する */
     - (void)imageByCropping:(UIImage *)crop
@@ -167,7 +169,7 @@
         }
        
       /* 画像の順番をランダムにするための数字の配列 */
-      for (int i = 14; i > 8; i--) {
+    for (int i = 14; i > 8; i--) {
          int randomNum = arc4random() % i;
           [imgNumAry exchangeObjectAtIndex:i withObjectAtIndex:randomNum];
      }
@@ -180,16 +182,28 @@
         bt1.hidden = NO;
         [bt1 setBackgroundImage:bt0.currentBackgroundImage forState:UIControlStateNormal];
         [imgNumAry exchangeObjectAtIndex:0 withObjectAtIndex:1];
-        bt0.hidden = YES;
+        bt0.hidden = YES;    //音楽を再生する
+        //NSString *path =[[NSBundle mainBundle] pathForResource:@"2877" ofType:@"mp3"];
+        //NSURL *url =[NSURL fileURLWithPath:path];
+        //audio=[[AVAudioPlayer alloc]initWithContentsOfURL:url error:nil];
+        //[audio play]; //再生メゾットを呼び出す
+        
+
+        AudioServicesPlaySystemSound(sound_1);
+            
+        
+
     }else if(bt4.hidden == YES){
         bt4.hidden = NO;
         [bt4 setBackgroundImage:bt0.currentBackgroundImage forState:UIControlStateNormal];
         [imgNumAry exchangeObjectAtIndex:0 withObjectAtIndex:4];
         bt0.hidden = YES;
+        AudioServicesPlaySystemSound(sound_1);
     }
     [self check];
 }//bt1が押された時
 -(IBAction)bt1Pushed{
+    AudioServicesPlaySystemSound(sound_1);
     if(bt0.hidden == YES){
         bt0.hidden = NO;
         [bt0 setBackgroundImage:bt1.currentBackgroundImage forState:UIControlStateNormal];
@@ -210,6 +224,7 @@
 }
 //bt2が押された時
 -(IBAction)bt2Pushed{
+       AudioServicesPlaySystemSound(sound_1);
     if(bt1.hidden == YES){
         bt1.hidden = NO;
         [bt1 setBackgroundImage:bt2.currentBackgroundImage forState:UIControlStateNormal];
@@ -230,41 +245,49 @@
 }
 //bt3が押された時
 -(IBAction)bt3Pushed{
+    AudioServicesPlaySystemSound(sound_1);
     if(bt2.hidden == YES){
         bt2.hidden = NO;
         [bt2 setBackgroundImage:bt3.currentBackgroundImage forState:UIControlStateNormal];
         [imgNumAry exchangeObjectAtIndex:3 withObjectAtIndex:2];
         bt3.hidden = YES;
+     
     }else if(bt7.hidden == YES){
         bt7.hidden = NO;
         [bt7 setBackgroundImage:bt3.currentBackgroundImage forState:UIControlStateNormal];
         [imgNumAry exchangeObjectAtIndex:3 withObjectAtIndex:7];
         bt3.hidden = YES;
+        
     }
     [self check];
 }
 //bt4が押された時
 -(IBAction)bt4Pushed{
+          AudioServicesPlaySystemSound(sound_1);
     if(bt0.hidden == YES){
         bt0.hidden = NO;
         [bt0 setBackgroundImage:bt4.currentBackgroundImage forState:UIControlStateNormal];
         [imgNumAry exchangeObjectAtIndex:4 withObjectAtIndex:0];
         bt4.hidden = YES;
+       
     }else if(bt5.hidden == YES){
         bt5.hidden = NO;
         [bt5 setBackgroundImage:bt4.currentBackgroundImage forState:UIControlStateNormal];
         [imgNumAry exchangeObjectAtIndex:4 withObjectAtIndex:5];
         bt4.hidden = YES;
+        AudioServicesPlaySystemSound(sound_1);
     }else if(bt8.hidden == YES){
         bt8.hidden = NO;
         [bt8 setBackgroundImage:bt4.currentBackgroundImage forState:UIControlStateNormal];
         [imgNumAry exchangeObjectAtIndex:4 withObjectAtIndex:8];
         bt4.hidden = YES;
+     
     }
     [self check];
 }
 //bt5が押された時
 -(IBAction)bt5Pushed{
+          AudioServicesPlaySystemSound(sound_1);
     if(bt1.hidden == YES){
         bt1.hidden = NO;
         [bt1 setBackgroundImage:bt5.currentBackgroundImage forState:UIControlStateNormal];
@@ -290,6 +313,7 @@
 }
 //bt6が押された時
 -(IBAction)bt6Pushed{
+          AudioServicesPlaySystemSound(sound_1);
     if(bt2.hidden == YES){
         bt2.hidden = NO;
         [bt2 setBackgroundImage:bt6.currentBackgroundImage forState:UIControlStateNormal];
@@ -315,11 +339,13 @@
 }
 //bt7が押された時
 -(IBAction)bt7Pushed{
+          AudioServicesPlaySystemSound(sound_1);
     if(bt3.hidden == YES){
         bt3.hidden = NO;
         [bt3 setBackgroundImage:bt7.currentBackgroundImage forState:UIControlStateNormal];
         [imgNumAry exchangeObjectAtIndex:7 withObjectAtIndex:3];
         bt7.hidden = YES;
+    
     }else if(bt6.hidden == YES){
         bt6.hidden = NO;
         [bt6 setBackgroundImage:bt7.currentBackgroundImage forState:UIControlStateNormal];
@@ -335,6 +361,7 @@
 }
 //bt8が押された時
 -(IBAction)bt8Pushed{
+       AudioServicesPlaySystemSound(sound_1);
     if(bt4.hidden == YES){
         bt4.hidden = NO;
         [bt4 setBackgroundImage:bt8.currentBackgroundImage forState:UIControlStateNormal];
@@ -355,11 +382,13 @@
 }
 //bt9が押された時
 -(IBAction)bt9Pushed{
+       AudioServicesPlaySystemSound(sound_1);
     if(bt5.hidden == YES){
         bt5.hidden = NO;
         [bt5 setBackgroundImage:bt9.currentBackgroundImage forState:UIControlStateNormal];
         [imgNumAry exchangeObjectAtIndex:9 withObjectAtIndex:5];
         bt9.hidden = YES;
+      
     }else if(bt8.hidden == YES){
         bt8.hidden = NO;
         [bt8 setBackgroundImage:bt9.currentBackgroundImage forState:UIControlStateNormal];
@@ -380,6 +409,7 @@
 }
 //bt10が押された時
 -(IBAction)bt10Pushed{
+       AudioServicesPlaySystemSound(sound_1);
     if(bt6.hidden == YES){
         bt6.hidden = NO;
         [bt6 setBackgroundImage:bt10.currentBackgroundImage forState:UIControlStateNormal];
@@ -405,6 +435,7 @@
 }
 //bt11が押された時
 -(IBAction)bt11Pushed{
+       AudioServicesPlaySystemSound(sound_1);
     if(bt7.hidden == YES){
         bt7.hidden = NO;
         [bt7 setBackgroundImage:bt11.currentBackgroundImage forState:UIControlStateNormal];
@@ -425,6 +456,7 @@
 }
 //bt12が押された時
 -(IBAction)bt12Pushed{
+       AudioServicesPlaySystemSound(sound_1);
     if(bt8.hidden == YES){
         bt8.hidden = NO;
         [bt8 setBackgroundImage:bt12.currentBackgroundImage forState:UIControlStateNormal];
@@ -440,6 +472,7 @@
 }
 //bt13が押された時
 -(IBAction)bt13Pushed{
+       AudioServicesPlaySystemSound(sound_1);
     if(bt9.hidden == YES){
         bt9.hidden = NO;
         [bt9 setBackgroundImage:bt13.currentBackgroundImage forState:UIControlStateNormal];
@@ -460,6 +493,7 @@
 }
 //bt14が押された時
 -(IBAction)bt14Pushed{
+       AudioServicesPlaySystemSound(sound_1);
     if(bt10.hidden == YES){
         bt10.hidden = NO;
         [bt10 setBackgroundImage:bt14.currentBackgroundImage forState:UIControlStateNormal];
@@ -480,6 +514,7 @@
 }
 //bt15が押された時
 -(IBAction)bt15Pushed{
+       AudioServicesPlaySystemSound(sound_1);
     if(bt11.hidden == YES){
         bt11.hidden = NO;
         [bt11 setBackgroundImage:bt15.currentBackgroundImage forState:UIControlStateNormal];
@@ -509,6 +544,7 @@
         //ここにclearした時の処理を書く
         
         [self performSegueWithIdentifier:@"trans" sender:self];
+        
  
     }
 

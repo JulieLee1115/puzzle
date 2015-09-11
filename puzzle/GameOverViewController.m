@@ -29,17 +29,17 @@
     // Do any additional setup after loading the view.
     
     //音楽を再生する
-    NSString *path =[[NSBundle mainBundle] pathForResource:@"2877" ofType:@"mp3"];
-    NSURL *url =[NSURL fileURLWithPath:path];
-    audio=[[AVAudioPlayer alloc]initWithContentsOfURL:url error:nil];
-    [audio play]; //再生メゾットを呼び出す
+    //NSString *path =[[NSBundle mainBundle] pathForResource:@"2877" ofType:@"mp3"];
+    //NSURL *url =[NSURL fileURLWithPath:path];
+    //audio=[[AVAudioPlayer alloc]initWithContentsOfURL:url error:nil];
+    //[audio play]; //再生メゾットを呼び出す
     
     
     //後で消す
     if(_receiveString ==true){
-      imgView.image = [UIImage imageNamed:@"15.png"];
+      imgView.image = [UIImage imageNamed:@"名称未設定-2.png"];
     }else{
-        imgView.image = [UIImage imageNamed:@"pazuru.png"];
+        imgView.image = [UIImage imageNamed:@"名称未設定-3.png"];
     }
     
     

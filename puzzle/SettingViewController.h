@@ -13,7 +13,7 @@
 
 {
     IBOutlet UIImageView *pzImgView;
-      AVAudioPlayer *audio ;
+//    AVAudioPlayer *audio ;
 }
 
 -(IBAction)pushbut;
